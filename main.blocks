@@ -1,4 +1,43 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="pxt-on-start"></block>
-  <block type="device_forever"></block>
-</xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="A7u#w6$VUTUnE|@:fvKo">secouer</variable></variables><block type="device_gesture_event" id="PWof/L{=E:Jn/JQKwU1L" x="51" y="-323"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="ITE6;@6/2C@iPDM6FeSC"><field name="VAR" id="A7u#w6$VUTUnE|@:fvKo">secouer</field><value name="VALUE"><shadow type="math_number" id="wHS-4?83Ys{vxF~Q,=%w"><field name="NUM">3</field></shadow></value></block></statement></block><block type="device_button_event" id="mk|#}FIZ6Ss6msS`giGu" x="343" y="-263"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="$~dr#1fSmCB.4fCfrink"><field name="LEDS">`
+        . # # # . 
+        . # . # . 
+        . # # # . 
+        . . . # . 
+        . . . # .
+        `</field><next><block type="controls_if" id="Sn7z3m5,Kkcc{8QP20bb"><value name="IF0"><shadow type="logic_boolean" id="K!QCcjTU^3M%jOW=}=a2"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="f}%Z1;F47LhPkPc/Kwi^"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="q6%/dLBFk2xPt:UVqwmS" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="tccS+:duaOOI=72N,#*,"><field name="VAR" id="A7u#w6$VUTUnE|@:fvKo">secouer</field></block></value><value name="B"><shadow type="math_number" id="ro*.#gDQ+`O^s/48u,{3"><field name="NUM">3</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="3QBF*=BO[rg$v`U}Lzx)"><field name="LEDS">`
+        . # # . . 
+        # . # . . 
+        . . # . . 
+        . . # . . 
+        # # # # #
+        `</field></block></statement></block></next></block></statement></block><block type="device_show_leds" id="fwbl$.f]#5kZn}J@a8ur" disabled="true" x="10" y="-108"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . # . # 
+        . . . # . 
+        . . # # .
+        `</field></block><block type="device_forever" id="L8[15#e4@5z9J]GQ[vui" x="497" y="-40"></block><block type="device_button_event" id="0,q)JhI@Gv5hya0xLybn" x="147" y="258"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="-V/^f_yR{X6;)z%0,fO/"><field name="LEDS">`
+        . # # # . 
+        . # . # . 
+        . # # # . 
+        . # . # . 
+        . # # # .
+        `</field><next><block type="controls_if" id="1Ffg!q3/Z=[rEz!z;oty"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="%}YG/#X/q9]!:XE.R742"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="]Om.}RWk,u2z!Pa%;rDO"><field name="VAR" id="A7u#w6$VUTUnE|@:fvKo">secouer</field></block></value><value name="B"><shadow type="math_number" id="[x-?D*+Pm@V?Vcdy9_YC"><field name="NUM">3</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="H0,Jz66Hon=W?fvte:b("><field name="LEDS">`
+        . # # # . 
+        . # . . . 
+        . # # # . 
+        . . . # . 
+        . # # # .
+        `</field></block></statement></block></next></block></statement></block><block type="device_button_event" id="zOoavO=#ZI^[sBLX5Tr5" x="371" y="617"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="99Q:9S0sqITmYBWw3.xv"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="controls_if" id="eF/sYKTE@._ceJRv-;tY"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="ls1%A5fYb!,)zKk:EgvW"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="In2VPg+FZp~iRPQ~ySN{"><field name="VAR" id="A7u#w6$VUTUnE|@:fvKo">secouer</field></block></value><value name="B"><shadow type="math_number" id="sX_S+_r2n/Y{w:?KDP^e"><field name="NUM">3</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="B^ibO!.x=(5Hq[MpWQ+5"><field name="LEDS">`
+        . # # # . 
+        . # . . . 
+        . # # # . 
+        . # . # . 
+        . # # # .
+        `</field></block></statement></block></next></block></statement></block></xml>
